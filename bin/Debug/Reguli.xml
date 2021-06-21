@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<reguli>
+	
+	<regula>
+		<if>
+			<nume>X</nume>
+			<ora_sedinta>Y</ora_sedinta>
+			<ora_pranz>Y</ora_pranz>
+		</if>
+		<then>
+			<nedisponibil_la_ora>Y</nedisponibil_la_ora>
+		</then>
+	</regula>
+
+
+	<regula>
+		<if>
+			<nume>X</nume>
+			<departament>Z</departament>
+			<nume>Y</nume>
+			<departament>Z</departament>
+		</if>
+		<then>
+			<colegi_in_dept>Z</colegi_in_dept>
+		</then>
+	</regula>
+
+
+	<regula>
+		<if>
+			<departament>X</departament>
+			<proiect>Z</proiect>
+			<departament>Y</departament>
+			<proiect>Z</proiect>
+		</if>
+		<then>
+			<proiect_comun>Z</proiect_comun>
+		</then>
+	</regula>
+
+
+	<regula>
+		<if>
+			<nume>X</nume>
+			<studii>doctorat</studii>
+			<ore_peste_program>Z</ore_peste_program>
+		</if>
+		<then>
+			<manager>X</manager>
+		</then>
+	</regula>
+	
+	
+	<regula>
+		<if>
+			<nume>X</nume>
+			<deplasare>autoturism</deplasare>	
+		</if>
+		<then>
+			<ora_serviciu>11</ora_serviciu>
+		</then>
+	</regula>
+	
+	<regula>
+		<if>
+			<nume>X</nume>
+			<deplasare>pieton</deplasare>
+		</if>
+		<then>
+			<ora_serviciu>10</ora_serviciu>
+		</then>
+	</regula>
+	
+	<regula>
+		<if>
+			<nume>X</nume>
+			<deplasare>metrou</deplasare>
+		</if>
+		<then>
+			<ora_serviciu>9</ora_serviciu>
+		</then>
+	</regula>
+	
+	<regula>
+		<if>
+			<nume>X</nume>
+			<deplasare>bicicleta</deplasare>
+		</if>
+		<then>
+			<ora_serviciu>9</ora_serviciu>
+		</then>
+	</regula>
+	
+	
+</reguli>

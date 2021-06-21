@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<corporatie>
+	<angajat nume = "ion">
+		<salariu>5000</salariu>
+		<ore_saptamana>50</ore_saptamana>
+		<deplasare>autoturism</deplasare>
+		<ora_pranz>13</ora_pranz>
+		<masa_pranz>salata</masa_pranz>
+		<hobby>gatit</hobby>
+		<cost_hobby>1300</cost_hobby>
+		<studii>doctorat</studii>
+		<departament>it</departament>
+	</angajat>
+
+	<angajat nume = "maria">
+		<salariu>6000</salariu>
+		<ore_saptamana>45</ore_saptamana>
+		<deplasare>metrou</deplasare>
+		<ora_pranz>12</ora_pranz>
+		<masa_pranz>fructe</masa_pranz>
+		<hobby>pictat</hobby>
+		<cost_hobby>3000</cost_hobby>
+		<studii>doctorat</studii>
+		<departament>rd</departament>
+	</angajat>
+
+	<angajat nume = "vasile">
+		<salariu>4500</salariu>
+		<ore_saptamana>40</ore_saptamana>
+		<deplasare>bicicleta</deplasare>
+		<ora_pranz>13</ora_pranz>
+		<masa_pranz>fastfood</masa_pranz>
+		<hobby>sculptat</hobby>
+		<cost_hobby>3000</cost_hobby>
+		<studii>facultate</studii>
+		<departament>hr</departament>
+	</angajat>
+
+	<angajat nume = "anca">
+		<salariu>4500</salariu>
+		<ore_saptamana>42</ore_saptamana>
+		<deplasare>pieton</deplasare>
+		<ora_pranz>14</ora_pranz>
+		<masa_pranz>salata</masa_pranz>
+		<hobby>cantat</hobby>
+		<cost_hobby>2500</cost_hobby>
+		<studii>facultate</studii>
+		<departament>hr</departament>
+	</angajat>
+
+	<angajat nume = "alex">
+		<salariu>4800</salariu>
+		<ore_saptamana>40</ore_saptamana>
+		<deplasare>bicicleta</deplasare>
+		<ora_pranz>13</ora_pranz>
+		<masa_pranz>salata</masa_pranz>
+		<hobby>alergat</hobby>
+		<cost_hobby>500</cost_hobby>
+		<studii>facultate</studii>
+		<departament>it</departament>
+	</angajat>
+
+	<angajat nume = "dan">
+		<salariu>10000</salariu>
+		<ore_saptamana>40</ore_saptamana>
+		<deplasare>autoturism</deplasare>
+		<ora_pranz>12</ora_pranz>
+		<masa_pranz>fructe</masa_pranz>
+		<hobby>citit</hobby>
+		<cost_hobby>2000</cost_hobby>
+		<studii>doctorat</studii>
+		<departament>it</departament>
+	</angajat>
+
+
+	<coordonare nume_departament = "it">
+		<proiect>programare</proiect>
+		<proiect>dezvoltare</proiect>
+	</coordonare>
+
+	<coordonare nume_departament = "rd">
+		<proiect>cercetare</proiect>
+		<proiect>dezvoltare</proiect>
+	</coordonare>
+
+	<coordonare nume_departament = "hr">
+		<proiect>recruitare</proiect>
+	</coordonare>
+
+
+</corporatie>
